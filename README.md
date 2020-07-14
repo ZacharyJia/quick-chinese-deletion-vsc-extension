@@ -1,5 +1,7 @@
 # Quick Chinese Deletion Extension for Visual Studio Code
 
+## Note
+目前发现[CJK Word handler](https://github.com/SharzyL/cjk-word-handler)已经采用了跟本项目类似的方案，且实现功能更加丰富，因此将本项目归档，推荐使用CJK Word Handler[扩展](https://marketplace.visualstudio.com/items?itemName=sgryjp.japanese-word-handler)。
 
 ## Inspiration
 VSCode当中进行中文编辑（写latex）的时候，如果使用alt+backspace(Windows上是ctrl+backspace)进行删除的话，会把一大段中文都当成一个单词删掉，而英文则不会（因为应为通过空格区分了单词）。这种方式对于我这种习惯使用alt+backspace来删除的人来说是非常不方便的。找了很久没有发现解决方案，但是前段时间发现了[Hungry Delete](https://marketplace.visualstudio.com/items?itemName=jasonlhy.hungry-delete)这个扩展，所以我基于这个扩展和[node-segment](https://github.com/leizongmin/node-segment)这个分词工具，完成了这个简单的扩展。
